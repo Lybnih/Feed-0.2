@@ -1,0 +1,103 @@
+.interface-post {
+    width: 60%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px;
+}
+.post {
+    padding: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-nome {
+  margin-left: 10px; /* Espaçamento entre a imagem e o nome */
+}
+
+.user-title {
+  font-size: 14px;
+  color: #555; /* Cor cinza para o título */
+}
+
+.follow-button {
+  background-color: #007bff; /* Azul do LinkedIn */
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.follow-button:hover {
+  background-color: #0069d9; /* Azul mais escuro ao passar o mouse */
+}
+
+.follow-button i {
+  margin-right: 5px;
+}
+
+.post-content {
+  margin-bottom: 15px;
+}
+
+.post-image {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.post-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-actions-left,
+.post-actions-right {
+  display: flex;
+  align-items: center;
+}
+
+.post-action {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-action:hover {
+  background-color: #e0e0e0;
+}
+
+.post-action i {
+  margin-right: 5px;
+}

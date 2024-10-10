@@ -1,0 +1,44 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f4f2ee;
+    height: 100vh;
+    margin: 0;
+    scrollbar-width: thin;
+}
+
+.hr-texto {
+    width: calc(57% - 200px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; /* 100px de distância lateral */
+    padding: 12px;
+}
+
+.hr-texto::before,
+.hr-texto::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #ccc;
+}
+
+.hr-texto::before {
+    margin-right: 10px; /* Espaçamento entre a linha e o texto */
+}
+
+.hr-texto::after {
+    margin-left: 10px; /* Espaçamento entre o texto e a linha */
+}
+
+.hr-texto span {
+    white-space: nowrap; /* Garante que a frase fique em uma única linha */
+    font-size: 14px;
+    color: #333;
+}
